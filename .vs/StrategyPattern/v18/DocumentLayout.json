@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|c:\\users\\toohighdude\\desktop\\strategypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|c:\\users\\toohighdude\\desktop\\strategypattern\\ducks\\decoyduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|solutionrelative:ducks\\decoyduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|c:\\users\\toohighdude\\desktop\\strategypattern\\ducks\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|solutionrelative:ducks\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|c:\\users\\toohighdude\\desktop\\strategypattern\\ducks\\robotduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|solutionrelative:ducks\\robotduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|c:\\users\\toohighdude\\desktop\\strategypattern\\ducks\\redheadduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|solutionrelative:ducks\\redheadduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|c:\\users\\toohighdude\\desktop\\strategypattern\\ducks\\mallardduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|solutionrelative:ducks\\mallardduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|c:\\users\\toohighdude\\desktop\\strategypattern\\ducks\\rubberduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C5B581-80F3-4B6A-9B5A-834C55F20079}|StrategyPattern.csproj|solutionrelative:ducks\\rubberduck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Duck.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\Duck.cs",
+              "RelativeDocumentMoniker": "Ducks\\Duck.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\Duck.cs",
+              "RelativeToolTip": "Ducks\\Duck.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T11:44:24.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DecoyDuck.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\DecoyDuck.cs",
+              "RelativeDocumentMoniker": "Ducks\\DecoyDuck.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\DecoyDuck.cs",
+              "RelativeToolTip": "Ducks\\DecoyDuck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T11:46:59.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RubberDuck.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\RubberDuck.cs",
+              "RelativeDocumentMoniker": "Ducks\\RubberDuck.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\RubberDuck.cs",
+              "RelativeToolTip": "Ducks\\RubberDuck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T11:44:48.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MallardDuck.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\MallardDuck.cs",
+              "RelativeDocumentMoniker": "Ducks\\MallardDuck.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\MallardDuck.cs",
+              "RelativeToolTip": "Ducks\\MallardDuck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T11:44:16.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RedheadDuck.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\RedheadDuck.cs",
+              "RelativeDocumentMoniker": "Ducks\\RedheadDuck.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\RedheadDuck.cs",
+              "RelativeToolTip": "Ducks\\RedheadDuck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T11:42:51.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RobotDuck.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\RobotDuck.cs",
+              "RelativeDocumentMoniker": "Ducks\\RobotDuck.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Ducks\\RobotDuck.cs",
+              "RelativeToolTip": "Ducks\\RobotDuck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T11:42:09.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\StrategyPattern\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T10:49:03.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
