@@ -1,4 +1,6 @@
-﻿using StrategyPattern.Behaviours.Swim;
+﻿using StrategyPattern.Behaviours.Fly;
+using StrategyPattern.Behaviours.Swim;
+using StrategyPattern.Interfaces.SwimBehavior;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,8 @@ namespace StrategyPattern.Ducks
     {
         public RobotDuck()
         {
+            this.FlyBehavior = new FlyWithWings();
+            this.SwimBehavior = new SwimBehavior();
             this.swimBehavior = new Sink();
         }
 
