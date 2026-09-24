@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern.Condiments
 {
-    internal class Whip : CondimentDecorator
+    internal class WhippedCream : CondimentDecorator
     {
-        public Whip(Beverage beverage) : base(beverage) { }
+        public WhippedCream(Beverage beverage) : base(beverage) { }
 
         public override double cost()
         {
@@ -18,7 +18,7 @@ namespace DecoratorPattern.Condiments
 
         public override string GetDescription()
         {
-            return Parent.GetDescription() + ", Whip";
+            return Parent.GetDescription() + ", Whipped Cream";
         }
     }
 }

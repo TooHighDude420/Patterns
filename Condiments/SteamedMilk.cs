@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern.Condiments
 {
-    internal class MilkFoam : CondimentDecorator
+    internal class SteamedMilk : CondimentDecorator
     {
-        public MilkFoam(Beverage beverage) : base(beverage) { }
+        public SteamedMilk(Beverage beverage) : base(beverage) { }
 
         public override double cost()
         {
@@ -18,7 +18,7 @@ namespace DecoratorPattern.Condiments
 
         public override string GetDescription()
         {
-            return Parent.GetDescription() + ", Milk Foam";
+            return Parent.GetDescription() + ", Steamed Milk";
         }
     }
 }

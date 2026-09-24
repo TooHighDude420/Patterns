@@ -11,6 +11,7 @@ namespace DecoratorPattern
     internal class BevToCon : CondimentDecorator
     {
         private Beverage basedOn;
+        
         public BevToCon(Beverage beverage, Beverage based) : base(beverage) {
             basedOn = based;
         }

@@ -12,7 +12,7 @@ namespace DecoratorPattern
             PrintBeverage(espresso);
 
             Beverage doppio = new Espresso();
-            doppio = new BevToCon(espresso, new Espresso());
+            doppio = new BevToCon(doppio, new Espresso());
             PrintBeverage(doppio);
 
             Beverage lungo = new Espresso();
@@ -27,15 +27,34 @@ namespace DecoratorPattern
             correto = new Liqour(correto);
             PrintBeverage(correto);
 
+            Beverage conPanna = new Espresso();
+            conPanna = new WhippedCream(conPanna);
+            PrintBeverage(conPanna);
+
+            Beverage cappuchino = new Espresso();
+            cappuchino = new SteamedMilk(cappuchino);
+            cappuchino = new MilkFoam(cappuchino);
+            PrintBeverage(cappuchino);
+
             Beverage americano = new Espresso();
             americano = new BevToCon(americano, new Water());
             americano = new BevToCon(americano, new Water());
             PrintBeverage(americano);
+
+            Beverage caffeLatte = new Espresso();
+            caffeLatte = new SteamedMilk(caffeLatte);
+            caffeLatte = new MilkFoam(caffeLatte);
+            PrintBeverage(caffeLatte);
+
+            Beverage flatWhite = new Espresso();
+            flatWhite = new SteamedMilk(flatWhite);
+            flatWhite = new SteamedMilk(flatWhite);
+            PrintBeverage(flatWhite);
         }
 
         static void PrintBeverage(Beverage beverage)
         {
-            Console.WriteLine(beverage.GetDescription() + " $" +  beverage.cost().ToString("#.##"));
+            Console.WriteLine(beverage.GetDescription() + " $" + beverage.cost().ToString("#.##"));
         }
     }
 }
