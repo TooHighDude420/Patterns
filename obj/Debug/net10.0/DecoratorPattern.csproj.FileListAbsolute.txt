@@ -13,3 +13,18 @@
 /home/toohighdude/Desktop/New Folder/Patterns/obj/Debug/net10.0/DecoratorPattern.pdb
 /home/toohighdude/Desktop/New Folder/Patterns/obj/Debug/net10.0/DecoratorPattern.genruntimeconfig.cache
 /home/toohighdude/Desktop/New Folder/Patterns/obj/Debug/net10.0/ref/DecoratorPattern.dll
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\bin\Debug\net10.0\DecoratorPattern.exe
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\bin\Debug\net10.0\DecoratorPattern.deps.json
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\bin\Debug\net10.0\DecoratorPattern.runtimeconfig.json
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\bin\Debug\net10.0\DecoratorPattern.dll
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\bin\Debug\net10.0\DecoratorPattern.pdb
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.AssemblyInfoInputs.cache
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.AssemblyInfo.cs
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.csproj.CoreCompileInputs.cache
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.sourcelink.json
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.dll
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\refint\DecoratorPattern.dll
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.pdb
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\DecoratorPattern.genruntimeconfig.cache
+C:\Users\TooHighDude\Desktop\003 - DecoratorPattern\Patterns\Patterns\obj\Debug\net10.0\ref\DecoratorPattern.dll

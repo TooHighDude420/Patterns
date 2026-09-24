@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/toohighdude/Desktop/New Folder/Patterns/DecoratorPattern.csproj": {}
+    "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\DecoratorPattern.csproj": {}
   },
   "projects": {
-    "/home/toohighdude/Desktop/New Folder/Patterns/DecoratorPattern.csproj": {
+    "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\DecoratorPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/toohighdude/Desktop/New Folder/Patterns/DecoratorPattern.csproj",
+        "projectUniqueName": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\DecoratorPattern.csproj",
         "projectName": "DecoratorPattern",
-        "projectPath": "/home/toohighdude/Desktop/New Folder/Patterns/DecoratorPattern.csproj",
-        "packagesPath": "/home/toohighdude/.nuget/packages/",
-        "outputPath": "/home/toohighdude/Desktop/New Folder/Patterns/obj/",
+        "projectPath": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\DecoratorPattern.csproj",
+        "packagesPath": "C:\\Users\\TooHighDude\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/toohighdude/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\TooHighDude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -38,10 +41,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -54,18 +58,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[10.0.12, 10.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
