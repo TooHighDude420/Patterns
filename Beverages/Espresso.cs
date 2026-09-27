@@ -8,7 +8,7 @@ namespace DecoratorPattern.Beverages
 {
     internal class Espresso : Beverage
     {
-        public Espresso()
+        public Espresso(Size size) : base(size)
         {
             description = "Espresso";
         }

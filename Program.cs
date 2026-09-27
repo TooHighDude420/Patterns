@@ -10,7 +10,7 @@ namespace DecoratorPattern
         {
             List<Beverage> beverages = new List<Beverage>();
 
-            Beverage espresso = new Espresso();
+            Beverage espresso = new Espresso(Size.GRANDE);
             beverages.Add(espresso);
 
             Beverage doppio = new Espresso();
@@ -152,7 +152,7 @@ namespace DecoratorPattern
         {
             foreach (Beverage drink in beverages)
             {
-                Console.WriteLine(drink.GetDescription() + " $" + drink.cost().ToString("#.##"));
+                Console.WriteLine(drink.GetDescription() + " $" + drink.BaseCosts().ToString("#.##"));
             }
         }
     }

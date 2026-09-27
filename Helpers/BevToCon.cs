@@ -18,7 +18,7 @@ namespace DecoratorPattern
 
         public override double cost()
         {
-            return basedOn.cost() + Parent.cost();
+            return basedOn.BaseCosts() + Parent.BaseCosts();
         }
 
         public override string GetDescription()
