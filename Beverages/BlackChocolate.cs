@@ -8,7 +8,7 @@ namespace DecoratorPattern.Beverages
 {
     internal class BlackChocolate : Beverage
     {
-        public BlackChocolate(Size size) : base(size)
+        public BlackChocolate(Size? size = null) : base(size)
         {
             description = "Black Chocolate";
         }
@@ -18,7 +18,7 @@ namespace DecoratorPattern.Beverages
             return description;
         }
 
-        public override double cost()
+        public override double BaseCosts()
         {
             return 1.99;
         }

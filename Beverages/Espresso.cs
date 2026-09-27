@@ -8,7 +8,7 @@ namespace DecoratorPattern.Beverages
 {
     internal class Espresso : Beverage
     {
-        public Espresso(Size size) : base(size)
+        public Espresso(Size? size = null) : base(size)
         {
             description = "Espresso";
         }
@@ -18,7 +18,7 @@ namespace DecoratorPattern.Beverages
             return description;
         }
 
-        public override double cost()
+        public override double BaseCosts()
         {
             return 1.99;
         }

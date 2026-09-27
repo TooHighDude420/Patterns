@@ -11,9 +11,9 @@ namespace DecoratorPattern.Condiments
     {
         public MilkFoam(Beverage beverage) : base(beverage) { }
 
-        public override double cost()
+        public override double BaseCosts()
         {
-            return 0.10 + Parent.cost();
+            return 0.10 + Parent.costs();
         }
 
         public override string GetDescription()

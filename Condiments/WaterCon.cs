@@ -9,17 +9,15 @@ namespace DecoratorPattern.Condiments
 {
     internal class WaterCon : CondimentDecorator
     {
-        public WaterCon(Beverage beverage) : base(beverage) { }
-        private Beverage basedOn = new Water();
-
-        public override double cost()
+        public WaterCon(Beverage beverage) : base(beverage){}
+        public override double BaseCosts()
         {
-            return basedOn.cost() + Parent.cost();
+            return 0.50 + Parent.costs();
         }
 
         public override string GetDescription()
         {
-            return Parent.GetDescription() + $", {basedOn.GetDescription()}";
+            return Parent.GetDescription() + ", Water";
         }
     }
 }

@@ -12,7 +12,7 @@ namespace DecoratorPattern.Condiments
         public Beverage Parent { get { return parent; } }
         private Beverage parent;
 
-        public CondimentDecorator(Beverage parent)
+        public CondimentDecorator(Beverage parent) : base(parent.Size)
         {
             this.parent = parent;
         }

@@ -8,7 +8,7 @@ namespace DecoratorPattern.Beverages
 {
     internal class IceCream : Beverage
     {
-        public IceCream(Size size) : base(size)
+        public IceCream(Size? size = null) : base(size)
         {
             description = "Ice Cream";
         }
@@ -18,7 +18,7 @@ namespace DecoratorPattern.Beverages
             return description;
         }
 
-        public override double cost()
+        public override double BaseCosts()
         {
             return 1.99;
         }

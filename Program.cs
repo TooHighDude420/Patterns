@@ -1,6 +1,5 @@
 ﻿using DecoratorPattern.Beverages;
 using DecoratorPattern.Condiments;
-using DecoratorPattern.Helpers;
 
 namespace DecoratorPattern
 {
@@ -13,23 +12,23 @@ namespace DecoratorPattern
             Beverage espresso = new Espresso(Size.GRANDE);
             beverages.Add(espresso);
 
-            Beverage doppio = new Espresso();
-            doppio = new BevToCon(doppio, new Espresso());
+            Beverage doppio = new Espresso(Size.VENDI);
+            doppio = new EspressoCon(doppio);
             beverages.Add(doppio);
 
             Beverage lungo = new Espresso();
-            lungo = new BevToCon(lungo, new Water());
+            lungo = new WaterCon(lungo);
             beverages.Add(lungo);
 
-            Beverage macchiato = new Espresso();
+            Beverage macchiato = new Espresso(Size.GRANDE);
             macchiato = new MilkFoam(macchiato);
             beverages.Add(macchiato);
 
-            Beverage correto = new Espresso();
+            Beverage correto = new Espresso(Size.VENDI);
             correto = new Liqour(correto);
             beverages.Add(correto);
 
-            Beverage conPanna = new Espresso();
+            Beverage conPanna = new Espresso(Size.GRANDE);
             conPanna = new WhippedCream(conPanna);
             beverages.Add(conPanna);
 
@@ -38,17 +37,17 @@ namespace DecoratorPattern
             cappuchino = new MilkFoam(cappuchino);
             beverages.Add(cappuchino);
 
-            Beverage americano = new Espresso();
-            americano = new BevToCon(americano, new Water());
-            americano = new BevToCon(americano, new Water());
+            Beverage americano = new Espresso(Size.VENDI);
+            americano = new WaterCon(americano);
+            americano = new WaterCon(americano);
             beverages.Add(americano);
 
-            Beverage caffeLatte = new Espresso();
+            Beverage caffeLatte = new Espresso(Size.VENDI);
             caffeLatte = new SteamedMilk(caffeLatte);
             caffeLatte = new MilkFoam(caffeLatte);
             beverages.Add(caffeLatte);
 
-            Beverage flatWhite = new Espresso();
+            Beverage flatWhite = new Espresso(Size.GRANDE);
             flatWhite = new SteamedMilk(flatWhite);
             flatWhite = new SteamedMilk(flatWhite);
             beverages.Add(flatWhite);
@@ -57,29 +56,29 @@ namespace DecoratorPattern
             romano = new Lemon(romano);
             beverages.Add(romano);
 
-            Beverage maracchino = new Espresso();
-            maracchino = new BevToCon(maracchino, new Chocolate());
+            Beverage maracchino = new Espresso(Size.VENDI);
+            maracchino = new ChocolateCon(maracchino);
             maracchino = new MilkFoam(maracchino);
             beverages.Add(maracchino);
 
-            Beverage moccha = new Espresso();
-            moccha = new BevToCon(moccha, new Chocolate());
+            Beverage moccha = new Espresso(Size.GRANDE);
+            moccha = new ChocolateCon(moccha);
             moccha = new MilkFoam(moccha);
             moccha = new WhippedCream(moccha);
             beverages.Add(moccha);
 
-            Beverage bicerin = new Espresso();
-            bicerin = new BevToCon(bicerin, new BlackChocolate());
-            bicerin = new BevToCon(bicerin, new WhiteChocolate());
+            Beverage bicerin = new Espresso(Size.GRANDE);
+            bicerin = new BlackChocolateCon(bicerin);
+            bicerin = new WhiteChocolateCon(new WhiteChocolate());
             bicerin = new WhippedCream(bicerin);
             beverages.Add(bicerin);
 
-            Beverage breve = new Espresso();
-            breve = new BevToCon(breve, new Milk());
+            Beverage breve = new Espresso(Size.VENDI);
+            breve = new MilkCon(breve);
             breve = new MilkFoam(breve);
             beverages.Add(breve);
 
-            Beverage rafCoffee = new Espresso();
+            Beverage rafCoffee = new Espresso(Size.VENDI);
             rafCoffee = new VanillaSugar(rafCoffee);
             rafCoffee = new Cream(rafCoffee);
             beverages.Add(rafCoffee);
@@ -93,37 +92,37 @@ namespace DecoratorPattern
             gelato = new MilkFoam(gelato);
             beverages.Add(gelato);
 
-            Beverage cafeeAllogato = new IceCream();
-            cafeeAllogato = new BevToCon(cafeeAllogato, new Espresso());
+            Beverage cafeeAllogato = new IceCream(Size.VENDI);
+            cafeeAllogato = new EspressoCon(cafeeAllogato);
             beverages.Add(cafeeAllogato);
             
-            Beverage viennaCoffee = new Espresso();
+            Beverage viennaCoffee = new Espresso(Size.VENDI);
             viennaCoffee = new WhippedCream(viennaCoffee);
             beverages.Add(viennaCoffee);
 
-            Beverage glace = new Espresso();
-            glace = new BevToCon(glace, new IceCream());
+            Beverage glace = new Espresso(Size.GRANDE);
+            glace = new IceCreamCon(glace);
             beverages.Add(glace);
 
             Beverage chocolateMilk = new Cocao();
-            chocolateMilk = new Milk();
+            chocolateMilk = new MilkCon(chocolateMilk);
             beverages.Add(chocolateMilk);
 
-            Beverage demiCreme = new Espresso();
+            Beverage demiCreme = new Espresso(Size.VENDI);
             demiCreme = new Cream(demiCreme);
             beverages.Add(demiCreme);
 
             Beverage latteMacchiato = new SteamedMilkBev();
-            latteMacchiato = new BevToCon(latteMacchiato, new Espresso());
+            latteMacchiato = new EspressoCon(latteMacchiato);
             latteMacchiato = new MilkFoam(latteMacchiato);
             beverages.Add(latteMacchiato);
 
-            Beverage freddo = new Espresso();
+            Beverage freddo = new Espresso(Size.GRANDE);
             freddo = new Liqour(freddo);
             freddo = new Ice(freddo);
             beverages.Add(freddo);
 
-            Beverage frappuccino = new Espresso();
+            Beverage frappuccino = new Espresso(Size.VENDI);
             frappuccino = new Ice(frappuccino);
             frappuccino = new SteamedMilk(frappuccino);
             frappuccino = new WhippedCream(frappuccino);
@@ -135,9 +134,9 @@ namespace DecoratorPattern
             caramelFrappuchino = new CreamAndSyrup(caramelFrappuchino);
             beverages.Add(caramelFrappuchino);
 
-            Beverage frappe = new Espresso();
+            Beverage frappe = new Espresso(Size.VENDI);
             frappe = new SteamedMilk(frappe);
-            frappe = new BevToCon(frappe, new IceCream());
+            frappe = new IceCreamCon(frappe);
             beverages.Add(frappe);
 
             Beverage irishCoffee = new Espresso();
@@ -152,7 +151,7 @@ namespace DecoratorPattern
         {
             foreach (Beverage drink in beverages)
             {
-                Console.WriteLine(drink.GetDescription() + " $" + drink.BaseCosts().ToString("#.##"));
+                Console.WriteLine(drink.GetDescription() + " $" + drink.costs().ToString("#.##") + " size:" + drink.Size.ToString());
             }
         }
     }

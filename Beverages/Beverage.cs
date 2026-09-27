@@ -20,7 +20,13 @@ namespace DecoratorPattern.Beverages
 
         protected string description = "Unknown";
 
-        public Beverage(Size size)
+        public Beverage(Size? size = null)
+        {
+            Size chosenSize = size ?? Size.TALL;
+            this.size = chosenSize;
+        }
+
+        public void SetSize(Size size)
         {
             this.size = size;
         }
@@ -30,11 +36,11 @@ namespace DecoratorPattern.Beverages
             return description;
         }
 
-        public double BaseCosts()
+        public double costs()
         {
-            return (int)this.size + ((int)this.size * .1f) + cost();
+            return BaseCosts() * (1 + ((int)this.size * .1f));
         }
 
-        public abstract double cost();
+        public abstract double BaseCosts();
     }
 }
