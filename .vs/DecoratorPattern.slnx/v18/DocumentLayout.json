@@ -1,50 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\",
+  "WorkspaceRootPath": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\whitechocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\whitechocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\steamedmilkbev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\steamedmilkbev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\icecream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\icecream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\espresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\espresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\espresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\cocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\starbuzzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:starbuzzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\condiments\\cream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:condiments\\cream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\whitechocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\whitechocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\factories\\coffeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:factories\\coffeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\decoratorpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:decoratorpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\steamedmilkbev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\steamedmilkbev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\icecream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\icecream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\cocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\cocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\chocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\chocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\chocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\blackchocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\factory\\patterns\\beverages\\blackchocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\blackchocolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\toohighdude\\desktop\\003 - decoratorpattern\\patterns\\patterns\\beverages\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:beverages\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,155 +70,200 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Program.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T07:57:41.621Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Cream.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Condiments\\Cream.cs",
+              "RelativeDocumentMoniker": "Condiments\\Cream.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Condiments\\Cream.cs",
+              "RelativeToolTip": "Condiments\\Cream.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T08:35:43.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StarBuzzz.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\StarBuzzz.cs",
+              "RelativeDocumentMoniker": "StarBuzzz.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\StarBuzzz.cs",
+              "RelativeToolTip": "StarBuzzz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T08:32:50.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoffeeFactory.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Factories\\CoffeeFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\CoffeeFactory.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Factories\\CoffeeFactory.cs",
+              "RelativeToolTip": "Factories\\CoffeeFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T08:18:04.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DecoratorPattern",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\DecoratorPattern.csproj",
+              "RelativeDocumentMoniker": "DecoratorPattern.csproj",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\DecoratorPattern.csproj",
+              "RelativeToolTip": "DecoratorPattern.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-28T08:16:36.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WhiteChocolate.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\WhiteChocolate.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\WhiteChocolate.cs",
               "RelativeDocumentMoniker": "Beverages\\WhiteChocolate.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\WhiteChocolate.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\WhiteChocolate.cs",
               "RelativeToolTip": "Beverages\\WhiteChocolate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T09:43:43.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Water.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Water.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Water.cs",
               "RelativeDocumentMoniker": "Beverages\\Water.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Water.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Water.cs",
               "RelativeToolTip": "Beverages\\Water.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T09:43:39.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "SteamedMilkBev.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\SteamedMilkBev.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\SteamedMilkBev.cs",
               "RelativeDocumentMoniker": "Beverages\\SteamedMilkBev.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\SteamedMilkBev.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\SteamedMilkBev.cs",
               "RelativeToolTip": "Beverages\\SteamedMilkBev.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T09:42:01.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T09:42:01.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Milk.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Milk.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Milk.cs",
               "RelativeDocumentMoniker": "Beverages\\Milk.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Milk.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Milk.cs",
               "RelativeToolTip": "Beverages\\Milk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T09:41:47.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T09:41:47.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "IceCream.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\IceCream.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\IceCream.cs",
               "RelativeDocumentMoniker": "Beverages\\IceCream.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\IceCream.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\IceCream.cs",
               "RelativeToolTip": "Beverages\\IceCream.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T09:41:33.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T09:41:33.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Cocao.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Cocao.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Cocao.cs",
               "RelativeDocumentMoniker": "Beverages\\Cocao.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Cocao.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Cocao.cs",
               "RelativeToolTip": "Beverages\\Cocao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T09:41:03.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T09:41:03.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Espresso.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Espresso.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Espresso.cs",
               "RelativeDocumentMoniker": "Beverages\\Espresso.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Espresso.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Espresso.cs",
               "RelativeToolTip": "Beverages\\Espresso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T09:40:08.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Beverage.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Beverage.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Beverage.cs",
               "RelativeDocumentMoniker": "Beverages\\Beverage.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Beverage.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Beverage.cs",
               "RelativeToolTip": "Beverages\\Beverage.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T09:39:45.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Chocolate.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Chocolate.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Chocolate.cs",
               "RelativeDocumentMoniker": "Beverages\\Chocolate.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\Chocolate.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\Chocolate.cs",
               "RelativeToolTip": "Beverages\\Chocolate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T09:39:19.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T09:39:19.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "BlackChocolate.cs",
-              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\BlackChocolate.cs",
+              "DocumentMoniker": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\BlackChocolate.cs",
               "RelativeDocumentMoniker": "Beverages\\BlackChocolate.cs",
-              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\003 - DecoratorPattern\\Patterns\\Patterns\\Beverages\\BlackChocolate.cs",
+              "ToolTip": "C:\\Users\\TooHighDude\\Desktop\\Factory\\Patterns\\Beverages\\BlackChocolate.cs",
               "RelativeToolTip": "Beverages\\BlackChocolate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T09:39:15.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "WhenOpened": "2026-09-25T09:39:15.131Z"
             }
           ]
         }
