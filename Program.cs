@@ -69,7 +69,7 @@ namespace DecoratorPattern
 
             Beverage bicerin = new Espresso(Size.GRANDE);
             bicerin = new BlackChocolateCon(bicerin);
-            bicerin = new WhiteChocolateCon(new WhiteChocolate());
+            bicerin = new WhiteChocolateCon(bicerin);
             bicerin = new WhippedCream(bicerin);
             beverages.Add(bicerin);
 

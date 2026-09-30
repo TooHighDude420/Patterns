@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b258ij8tgB8=",
+  "dgSpecHash": "YEFQaADRPfw=",
   "success": true,
-  "projectFilePath": "/home/toohighdude/Desktop/New Folder/Patterns/DecoratorPattern.csproj",
+  "projectFilePath": "/home/toohighdude/Desktop/revizies/Decorator/Patterns/DecoratorPattern.csproj",
   "expectedPackageFiles": [
     "/home/toohighdude/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
   ],

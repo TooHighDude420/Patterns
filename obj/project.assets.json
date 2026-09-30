@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/toohighdude/Desktop/New Folder/Patterns/DecoratorPattern.csproj",
+      "projectUniqueName": "/home/toohighdude/Desktop/revizies/Decorator/Patterns/DecoratorPattern.csproj",
       "projectName": "DecoratorPattern",
-      "projectPath": "/home/toohighdude/Desktop/New Folder/Patterns/DecoratorPattern.csproj",
+      "projectPath": "/home/toohighdude/Desktop/revizies/Decorator/Patterns/DecoratorPattern.csproj",
       "packagesPath": "/home/toohighdude/.nuget/packages/",
-      "outputPath": "/home/toohighdude/Desktop/New Folder/Patterns/obj/",
+      "outputPath": "/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/toohighdude/.nuget/NuGet/NuGet.Config"

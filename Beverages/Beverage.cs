@@ -15,20 +15,14 @@ namespace DecoratorPattern.Beverages
 
     internal abstract class Beverage
     {
-        public Size Size { get { return size; } set { size = value; } }
+        public Size Size { get { return size; }}
         private Size size;
 
         protected string description = "Unknown";
 
         public Beverage(Size? size = null)
         {
-            Size chosenSize = size ?? Size.TALL;
-            this.size = chosenSize;
-        }
-
-        public void SetSize(Size size)
-        {
-            this.size = size;
+            this.size = size ?? Size.TALL;
         }
 
         public virtual string GetDescription()

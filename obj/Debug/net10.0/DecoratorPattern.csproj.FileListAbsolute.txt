@@ -28,3 +28,18 @@ C:/Users/TooHighDude/Desktop/003 - DecoratorPattern/Patterns/Patterns/obj/Debug/
 C:/Users/TooHighDude/Desktop/003 - DecoratorPattern/Patterns/Patterns/obj/Debug/net10.0/DecoratorPattern.pdb
 C:/Users/TooHighDude/Desktop/003 - DecoratorPattern/Patterns/Patterns/obj/Debug/net10.0/DecoratorPattern.genruntimeconfig.cache
 C:/Users/TooHighDude/Desktop/003 - DecoratorPattern/Patterns/Patterns/obj/Debug/net10.0/ref/DecoratorPattern.dll
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.GeneratedMSBuildEditorConfig.editorconfig
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.AssemblyInfoInputs.cache
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.AssemblyInfo.cs
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.csproj.CoreCompileInputs.cache
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.sourcelink.json
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.dll
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/refint/DecoratorPattern.dll
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.pdb
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/bin/Debug/net10.0/DecoratorPattern
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/bin/Debug/net10.0/DecoratorPattern.deps.json
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/bin/Debug/net10.0/DecoratorPattern.runtimeconfig.json
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/bin/Debug/net10.0/DecoratorPattern.dll
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/bin/Debug/net10.0/DecoratorPattern.pdb
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/DecoratorPattern.genruntimeconfig.cache
+/home/toohighdude/Desktop/revizies/Decorator/Patterns/obj/Debug/net10.0/ref/DecoratorPattern.dll
