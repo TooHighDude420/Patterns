@@ -1,5 +1,6 @@
 ﻿using DecoratorPattern.Beverages;
 using DecoratorPattern.Condiments;
+using DecoratorPattern.Factories;
 
 namespace DecoratorPattern
 {
@@ -7,152 +8,37 @@ namespace DecoratorPattern
     {
         static void Main(string[] args)
         {
-            List<Beverage> beverages = new List<Beverage>();
+            CoffeeFactory starbuzz = new StarBuzzz();
 
-            Beverage espresso = new Espresso(Size.GRANDE);
-            beverages.Add(espresso);
-
-            Beverage doppio = new Espresso(Size.VENDI);
-            doppio = new EspressoCon(doppio);
-            beverages.Add(doppio);
-
-            Beverage lungo = new Espresso();
-            lungo = new WaterCon(lungo);
-            beverages.Add(lungo);
-
-            Beverage macchiato = new Espresso(Size.GRANDE);
-            macchiato = new MilkFoam(macchiato);
-            beverages.Add(macchiato);
-
-            Beverage correto = new Espresso(Size.VENDI);
-            correto = new Liqour(correto);
-            beverages.Add(correto);
-
-            Beverage conPanna = new Espresso(Size.GRANDE);
-            conPanna = new WhippedCream(conPanna);
-            beverages.Add(conPanna);
-
-            Beverage cappuchino = new Espresso();
-            cappuchino = new SteamedMilk(cappuchino);
-            cappuchino = new MilkFoam(cappuchino);
-            beverages.Add(cappuchino);
-
-            Beverage americano = new Espresso(Size.VENDI);
-            americano = new WaterCon(americano);
-            americano = new WaterCon(americano);
-            beverages.Add(americano);
-
-            Beverage caffeLatte = new Espresso(Size.VENDI);
-            caffeLatte = new SteamedMilk(caffeLatte);
-            caffeLatte = new MilkFoam(caffeLatte);
-            beverages.Add(caffeLatte);
-
-            Beverage flatWhite = new Espresso(Size.GRANDE);
-            flatWhite = new SteamedMilk(flatWhite);
-            flatWhite = new SteamedMilk(flatWhite);
-            beverages.Add(flatWhite);
-
-            Beverage romano = new Espresso();
-            romano = new Lemon(romano);
-            beverages.Add(romano);
-
-            Beverage maracchino = new Espresso(Size.VENDI);
-            maracchino = new ChocolateCon(maracchino);
-            maracchino = new MilkFoam(maracchino);
-            beverages.Add(maracchino);
-
-            Beverage moccha = new Espresso(Size.GRANDE);
-            moccha = new ChocolateCon(moccha);
-            moccha = new MilkFoam(moccha);
-            moccha = new WhippedCream(moccha);
-            beverages.Add(moccha);
-
-            Beverage bicerin = new Espresso(Size.GRANDE);
-            bicerin = new BlackChocolateCon(bicerin);
-            bicerin = new WhiteChocolateCon(new WhiteChocolate());
-            bicerin = new WhippedCream(bicerin);
-            beverages.Add(bicerin);
-
-            Beverage breve = new Espresso(Size.VENDI);
-            breve = new MilkCon(breve);
-            breve = new MilkFoam(breve);
-            beverages.Add(breve);
-
-            Beverage rafCoffee = new Espresso(Size.VENDI);
-            rafCoffee = new VanillaSugar(rafCoffee);
-            rafCoffee = new Cream(rafCoffee);
-            beverages.Add(rafCoffee);
-
-            Beverage meadRaf = new Espresso();
-            meadRaf = new Honey(meadRaf);
-            meadRaf = new Cream(meadRaf);
-            beverages.Add(meadRaf);
-
-            Beverage gelato = new Espresso();
-            gelato = new MilkFoam(gelato);
-            beverages.Add(gelato);
-
-            Beverage cafeeAllogato = new IceCream(Size.VENDI);
-            cafeeAllogato = new EspressoCon(cafeeAllogato);
-            beverages.Add(cafeeAllogato);
-            
-            Beverage viennaCoffee = new Espresso(Size.VENDI);
-            viennaCoffee = new WhippedCream(viennaCoffee);
-            beverages.Add(viennaCoffee);
-
-            Beverage glace = new Espresso(Size.GRANDE);
-            glace = new IceCreamCon(glace);
-            beverages.Add(glace);
-
-            Beverage chocolateMilk = new Cocao();
-            chocolateMilk = new MilkCon(chocolateMilk);
-            beverages.Add(chocolateMilk);
-
-            Beverage demiCreme = new Espresso(Size.VENDI);
-            demiCreme = new Cream(demiCreme);
-            beverages.Add(demiCreme);
-
-            Beverage latteMacchiato = new SteamedMilkBev();
-            latteMacchiato = new EspressoCon(latteMacchiato);
-            latteMacchiato = new MilkFoam(latteMacchiato);
-            beverages.Add(latteMacchiato);
-
-            Beverage freddo = new Espresso(Size.GRANDE);
-            freddo = new Liqour(freddo);
-            freddo = new Ice(freddo);
-            beverages.Add(freddo);
-
-            Beverage frappuccino = new Espresso(Size.VENDI);
-            frappuccino = new Ice(frappuccino);
-            frappuccino = new SteamedMilk(frappuccino);
-            frappuccino = new WhippedCream(frappuccino);
-            beverages.Add(frappuccino);
-
-            Beverage caramelFrappuchino = new Espresso();
-            caramelFrappuchino = new Ice(caramelFrappuchino);
-            caramelFrappuchino = new SteamedMilk(caramelFrappuchino);
-            caramelFrappuchino = new CreamAndSyrup(caramelFrappuchino);
-            beverages.Add(caramelFrappuchino);
-
-            Beverage frappe = new Espresso(Size.VENDI);
-            frappe = new SteamedMilk(frappe);
-            frappe = new IceCreamCon(frappe);
-            beverages.Add(frappe);
-
-            Beverage irishCoffee = new Espresso();
-            irishCoffee = new Whiskey(irishCoffee);
-            irishCoffee = new WhippedCream(irishCoffee);
-            beverages.Add(irishCoffee);
-
-            PrintBeverages(beverages);
-        }
-
-        static void PrintBeverages(List<Beverage> beverages)
-        {
-            foreach (Beverage drink in beverages)
-            {
-                Console.WriteLine(drink.GetDescription() + " $" + drink.costs().ToString("#.##") + " size:" + drink.Size.ToString());
-            }
+            starbuzz.OrderCoffee(CoffeTypes.ESPRESSO, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.DOPPIO, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.LUNGO);
+            starbuzz.OrderCoffee(CoffeTypes.MACCIATO, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.CORRETO, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.CONPANNA, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.CAPPUCHINO);
+            starbuzz.OrderCoffee(CoffeTypes.AMERICANO, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.CAFFELATTE, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.FLATWHITE, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.ROMANO);
+            starbuzz.OrderCoffee(CoffeTypes.MARACCHINO, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.MOCCHA, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.BICERIN, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.BREVE, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.RAFCOFFEE, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.MEADRAF);
+            starbuzz.OrderCoffee(CoffeTypes.GELATO);
+            starbuzz.OrderCoffee(CoffeTypes.CAFEALLOGATO, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.VIENNACOFFEE, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.GLACE, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.CHOCOLATEMILK, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.DEMICREME, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.LATTEMACCHIATO, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.FREDDO, Size.GRANDE);
+            starbuzz.OrderCoffee(CoffeTypes.FRAPPUCCINO, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.CARAMELFRAPPUCHINO);
+            starbuzz.OrderCoffee(CoffeTypes.FRAPPE, Size.VENDI);
+            starbuzz.OrderCoffee(CoffeTypes.IRISHCOFFEE);
         }
     }
 }

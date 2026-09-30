@@ -5,21 +5,52 @@ using System.Text;
 
 namespace DecoratorPattern.Factories
 {
+    //todo add all coffetypes
     enum CoffeTypes {
         ESPRESSO,
-        CAPPUCHINO
+        DOPPIO,
+        LUNGO,
+        MACCIATO,
+        CORRETO,
+        CONPANNA,
+        CAPPUCHINO,
+        AMERICANO,
+        CAFFELATTE,
+        FLATWHITE,
+        ROMANO,
+        MARACCHINO,
+        MOCCHA,
+        BICERIN,
+        BREVE,
+        RAFCOFFEE,
+        MEADRAF,
+        GELATO,
+        CAFEALLOGATO,
+        VIENNACOFFEE,
+        GLACE,
+        CHOCOLATEMILK,
+        DEMICREME,
+        LATTEMACCHIATO,
+        FREDDO,
+        FRAPPUCCINO,
+        CARAMELFRAPPUCHINO,
+        FRAPPE,
+        IRISHCOFFEE
     }
 
     internal abstract class CoffeeFactory
     {
-        public Beverage OrderCoffee(CoffeTypes types)
+        public void OrderCoffee(CoffeTypes type, Size? size = null)
         {
-            Beverage beverage = CreateDrink(types);
-            //todo add PrintBeverage
-            
-            return beverage;
+            PrintBeverages(CreateDrink(type, size));
+            // return beverage;
         }
 
-        public abstract Beverage CreateDrink(CoffeTypes types);
+        static void PrintBeverages(Beverage beverage)
+        {
+            Console.WriteLine(beverage.GetDescription() + " $" + beverage.costs().ToString("#.##") + " size:" + beverage.Size.ToString());
+        }
+
+        public abstract Beverage CreateDrink(CoffeTypes types, Size? size);
     }
 }

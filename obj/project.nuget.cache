@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ohF4WbpIdLY=",
+  "dgSpecHash": "ya0kuwCowGQ=",
   "success": true,
-  "projectFilePath": "C:\\shit\\Factory\\Patterns\\DecoratorPattern.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/toohighdude/Desktop/revizies/fac/Patterns/DecoratorPattern.csproj",
+  "expectedPackageFiles": [
+    "/home/toohighdude/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
