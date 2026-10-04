@@ -6,7 +6,8 @@ using System.Text;
 namespace DecoratorPattern.Factories
 {
     //todo add all coffetypes
-    enum CoffeTypes {
+    enum CoffeTypes
+    {
         ESPRESSO,
         DOPPIO,
         LUNGO,
@@ -40,10 +41,12 @@ namespace DecoratorPattern.Factories
 
     internal abstract class CoffeeFactory
     {
-        public void OrderCoffee(CoffeTypes type, Size? size = null)
+        public Beverage OrderCoffee(CoffeTypes type, Size? size = null)
         {
-            PrintBeverages(CreateDrink(type, size));
-            // return beverage;
+            Beverage beverage = CreateDrink(type, size);
+            PrintBeverages(beverage);
+            
+            return beverage;
         }
 
         static void PrintBeverages(Beverage beverage)
