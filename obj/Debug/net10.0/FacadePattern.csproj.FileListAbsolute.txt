@@ -1,0 +1,14 @@
+/home/toohighdude/Documents/School/FacadePattern/bin/Debug/net10.0/FacadePattern
+/home/toohighdude/Documents/School/FacadePattern/bin/Debug/net10.0/FacadePattern.deps.json
+/home/toohighdude/Documents/School/FacadePattern/bin/Debug/net10.0/FacadePattern.runtimeconfig.json
+/home/toohighdude/Documents/School/FacadePattern/bin/Debug/net10.0/FacadePattern.dll
+/home/toohighdude/Documents/School/FacadePattern/bin/Debug/net10.0/FacadePattern.pdb
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/FacadePattern.GeneratedMSBuildEditorConfig.editorconfig
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/FacadePattern.AssemblyInfoInputs.cache
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/FacadePattern.AssemblyInfo.cs
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/FacadePattern.csproj.CoreCompileInputs.cache
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/FacadePattern.dll
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/refint/FacadePattern.dll
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/FacadePattern.pdb
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/FacadePattern.genruntimeconfig.cache
+/home/toohighdude/Documents/School/FacadePattern/obj/Debug/net10.0/ref/FacadePattern.dll

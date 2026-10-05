@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D97u+YjcWYQ=",
+  "success": true,
+  "projectFilePath": "/home/toohighdude/Documents/School/FacadePattern/FacadePattern.csproj",
+  "expectedPackageFiles": [
+    "/home/toohighdude/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
