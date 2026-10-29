@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "z1HGu4/jJaA=",
+  "success": true,
+  "projectFilePath": "/home/toohighdude/Desktop/TemplateMethodPattern/Patterns/TemplateMethodPattern.csproj",
+  "expectedPackageFiles": [
+    "/home/toohighdude/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.13/microsoft.aspnetcore.app.ref.10.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
